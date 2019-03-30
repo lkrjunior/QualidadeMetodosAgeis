@@ -7,45 +7,45 @@ Quando	informo email e senha<br>
 Então	exibi mensagem de "Authentication failed.".<br>
 
 
-Titulo	NãoPreencherEmailNoLogin
-Dado	que estou efetuando o login
-Quando	não informo o email
-Então	exibi a mensagem "An email address required".
+Titulo	NãoPreencherEmailNoLogin<br>
+Dado	que estou efetuando o login<br>
+Quando	não informo o email<br>
+Então	exibi a mensagem "An email address required".<br>
 
 
-Titulo	NãoInformarSenhaNoLogin
-Dado	que estou efetuando o login	
-Quando	informo o email
-E	não informo a senha
-Então	exibi a mensagem "Password is required.".
+Titulo	NãoInformarSenhaNoLogin<br>
+Dado	que estou efetuando o login	<br>
+Quando	informo o email<br>
+E	não informo a senha<br>
+Então	exibi a mensagem "Password is required.".<br>
 
 
-Titulo	ValidandoUsuarioExistenteNoCadastro
-Dado	que estou cadastrando o usuario
-Quando	preencho o e-mail na tela de cadastro
-E 	o e-mail já está cadastrado no site
-Então	exibi a mensagem "An account using this email address has already been registered. Please enter a valid password or request a new one."
+Titulo	ValidandoUsuarioExistenteNoCadastro<br>
+Dado	que estou cadastrando o usuario<br>
+Quando	preencho o e-mail na tela de cadastro<br>
+E 	o e-mail já está cadastrado no site<br>
+Então	exibi a mensagem "An account using this email address has already been registered. Please enter a valid password or request a new one."<br>
 
 
-Titulo 	ObterMaisInformacoesSobreOProduto
-Dado	que desejo obter mais informações sobre o produto
-Quando	escolho o produto e clico no botão "More"
-Então	deve abrir uma página com os detalhes do produto
+Titulo 	ObterMaisInformacoesSobreOProduto<br>
+Dado	que desejo obter mais informações sobre o produto<br>
+Quando	escolho o produto e clico no botão "More"<br>
+Então	deve abrir uma página com os detalhes do produto<br>
 
 
-Titulo 	AdicionarProdutoAoCarrinhoDeCompra
-Dado	que quero adicionar um produto ao carrinho de compra
-Quando	clico no botão "Add to card"
-Então	abrir um pop up com a mensagem "Product successfully added to your shopping cart"
+Titulo 	AdicionarProdutoAoCarrinhoDeCompra<br>
+Dado	que quero adicionar um produto ao carrinho de compra<br>
+Quando	clico no botão "Add to card"<br>
+Então	abrir um pop up com a mensagem "Product successfully added to your shopping cart"<br>
 
 
-Titulo 	RemoverProdutoDoCarrinhoDeCompra
-Dado	que quero remover um produto do carrinho de compra
-Quando	seleciono o produto e removo
-Então	o produto deve sumir do carrinho de compra
+Titulo 	RemoverProdutoDoCarrinhoDeCompra<br>
+Dado	que quero remover um produto do carrinho de compra<br>
+Quando	seleciono o produto e removo<br>
+Então	o produto deve sumir do carrinho de compra<br>
 
 
-Titulo 	PesquisarUmProdutoNoSite
-Dado	que desejo buscar por uma produto especifico no site
-Quando	digito o nome do produto
-Então	deve exibir uma página com os produtos que atendem o nome digitado no campo da pesquisa
+Titulo 	PesquisarUmProdutoNoSite<br>
+Dado	que desejo buscar por uma produto especifico no site<br>
+Quando	digito o nome do produto<br>
+Então	deve exibir uma página com os produtos que atendem o nome digitado no campo da pesquisa<br>
