@@ -1,10 +1,10 @@
 Criterios de Aceite
 
 
-Titulo	UsuarioNaoCadastrado
-Dado	Que não estou cadastrado no site
-Quando	informo email e senha
-Então	exibi mensagem de "Authentication failed.".
+Titulo	UsuarioNaoCadastrado<br>
+Dado	Que não estou cadastrado no site<br>
+Quando	informo email e senha<br>
+Então	exibi mensagem de "Authentication failed.".<br>
 
 
 Titulo	NãoPreencherEmailNoLogin
