@@ -1,7 +1,7 @@
 Criterios de Aceite
 
 
-Titulo	UsuarioNaoCadastrado
+Titulo	UsuarioNaoCadastrado/n
 Dado	Que não estou cadastrado no site
 Quando	informo email e senha
 Então	exibi mensagem de "Authentication failed.".
