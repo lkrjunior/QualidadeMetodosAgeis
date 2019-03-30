@@ -26,6 +26,9 @@ describe('automationpractice testes', function() {
 	
 	it('Não autenticar o usuário não cadastrado', function() {
 		
+		$('.login').click();
+		browser.sleep(2000);
+		
 		$('#email').sendKeys('caio@gmail.com');
         $('#passwd').sendKeys('123456');
         $('#SubmitLogin').click();
