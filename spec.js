@@ -38,6 +38,9 @@ describe('automationpractice testes', function() {
 	
     it('Não autenticar sem o e-mail no login', function() {
 		
+		$('.login').click();
+		browser.sleep(2000);
+		
         $('#passwd').sendKeys('123456');
         $('#SubmitLogin').click();
 
@@ -46,6 +49,9 @@ describe('automationpractice testes', function() {
 	
     it('Não autenticar sem a senha no login', function() {
 		
+		$('.login').click();
+		browser.sleep(2000);
+		
         $('#email').sendKeys('caio@gmail.com');
         $('#SubmitLogin').click();
 
@@ -53,6 +59,9 @@ describe('automationpractice testes', function() {
 	});  
 	
     it('Validando usuario existente no cadastro', function() {
+		
+		$('.login').click();
+		browser.sleep(2000);
 		
         $('#email_create').sendKeys('caio@gmail.com');
         $('#SubmitCreate').click();
