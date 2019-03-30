@@ -2,15 +2,14 @@ Criterios de Aceite
 
 
 Titulo	UsuarioNaoCadastrado
-
 Dado	Que não estou cadastrado no site
 Quando	informo email e senha
 Então	exibi mensagem de "Authentication failed.".
 
 
 Titulo	NãoPreencherEmailNoLogin
-Dado	que estou efetuando o login	
-Quando	não informo o email 
+Dado	que estou efetuando o login
+Quando	não informo o email
 Então	exibi a mensagem "An email address required".
 
 
