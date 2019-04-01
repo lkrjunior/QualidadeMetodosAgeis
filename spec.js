@@ -65,7 +65,9 @@ describe('automationpractice testes', function() {
 		
         $('#email_create').sendKeys('caio@gmail.com');
         $('#SubmitCreate').click();
-
+		
+		browser.sleep(1000);
+		
         expect($('.alert-danger > ol > li').getText()).toEqual('An account using this email address has already been registered. Please enter a valid password or request a new one.');	
 	});   
 	
