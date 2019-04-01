@@ -1,4 +1,4 @@
-https://travis-ci.org/lkrjunior/QualidadeMetodosAgeis.svg?branch=master
+[![Build Status](https://travis-ci.org/lkrjunior/QualidadeMetodosAgeis.svg?branch=master)](https://travis-ci.org/lkrjunior/QualidadeMetodosAgeis)
 
 Criterios de Aceite
 
