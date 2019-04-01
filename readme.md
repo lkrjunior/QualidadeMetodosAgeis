@@ -1,3 +1,5 @@
+https://travis-ci.org/lkrjunior/QualidadeMetodosAgeis.svg?branch=master
+
 Criterios de Aceite
 
 
